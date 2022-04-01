@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block content %}
+
+<h3><p>{% trans "Thanks for spending some quality time with Bookr today." %}</p></h3>
+
+<h4><a href="{% url 'accounts:login' %}">{% trans 'Mayme Log In again?' %}</a></h4>
+
+{% endblock %}
