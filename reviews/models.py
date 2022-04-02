@@ -57,7 +57,6 @@ class Contributor(models.Model):
         return self.first_names
 
 
-
 class BookContributor(models.Model):
     class ContributionRole(models.TextChoices):
         AUTHOR = "AUTHOR", "Author"
